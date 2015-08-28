@@ -4,7 +4,7 @@ An Objective-C version of [DOFavoriteButton](https://github.com/okmr-d/DOFavorit
 
 ## Screen Shot
 
-![img](https://raw.githubusercontent.com/Sunnyyoung/SYFavoriteButton/master/ScreenShot/ScreenShot.gif)
+![img](https://raw.githubusercontent.com/Sunnyyoung/SYFavoriteButton/master/ScreenShot/ScreeShot.gif)
 
 ## Pod
 
