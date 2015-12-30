@@ -108,6 +108,7 @@
         line.transform = CATransform3DMakeRotation(M_PI / 5 * (i * 2 + 1), 0.0, 0.0, 1.0);
         [self.layer addSublayer: line];
         [self.lines addObject:line];
+        CGPathRelease(path);
     }
     
     //===============
