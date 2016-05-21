@@ -11,11 +11,11 @@
 IB_DESIGNABLE
 @interface SYFavoriteButton : UIButton
 
-@property (nonatomic) IBInspectable UIImage *image;
-@property (nonatomic) IBInspectable UIColor *favoredColor;
-@property (nonatomic) IBInspectable UIColor *defaultColor;
-@property (nonatomic) IBInspectable UIColor *circleColor;
-@property (nonatomic) IBInspectable UIColor *lineColor;
-@property (nonatomic) IBInspectable CGFloat duration;
+@property (nonatomic, strong) IBInspectable UIImage *image;
+@property (nonatomic, strong) IBInspectable UIColor *favoredColor;
+@property (nonatomic, strong) IBInspectable UIColor *defaultColor;
+@property (nonatomic, strong) IBInspectable UIColor *circleColor;
+@property (nonatomic, strong) IBInspectable UIColor *lineColor;
+@property (nonatomic, assign) IBInspectable CGFloat duration;
 
 @end

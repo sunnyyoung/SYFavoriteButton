@@ -25,6 +25,24 @@
 
 @implementation SYFavoriteButton
 
+- (instancetype)init {
+    self = [super init];
+    if (self) {
+        [self setup];
+        [self addTargets];
+    }
+    return self;
+}
+
+- (instancetype)initWithFrame:(CGRect)frame {
+    self = [super initWithFrame:frame];
+    if (self) {
+        [self setup];
+        [self addTargets];
+    }
+    return self;
+}
+
 - (instancetype)initWithCoder:(NSCoder *)aDecoder {
     self = [super initWithCoder:aDecoder];
     if (self) {
