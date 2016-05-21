@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "SYFavoriteButton"
-  s.version      = "1.0"
+  s.version      = "1.1"
   s.summary      = "An Objective-C version of DOFavoriteButton https://github.com/okmr-d/DOFavoriteButton"
   s.homepage     = "https://github.com/Sunnyyoung/SYFavoriteButton"
   s.license      = "MIT"
